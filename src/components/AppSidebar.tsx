@@ -9,6 +9,8 @@ import {
   Flame,
   Timer,
   Trophy,
+  Users,
+  Crown,
 } from "lucide-react";
 
 const links = [
@@ -17,6 +19,8 @@ const links = [
   { to: "/timer", icon: Timer, label: "Focus Timer" },
   { to: "/analytics", icon: BarChart3, label: "Analytics" },
   { to: "/achievements", icon: Trophy, label: "Achievements" },
+  { to: "/friends", icon: Users, label: "Friends" },
+  { to: "/leaderboard", icon: Crown, label: "Leaderboard" },
   { to: "/profile", icon: UserCircle, label: "Profile" },
 ];
 

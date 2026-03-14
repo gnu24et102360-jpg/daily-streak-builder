@@ -11,6 +11,8 @@ import Habits from "./pages/Habits";
 import FocusTimer from "./pages/FocusTimer";
 import Analytics from "./pages/Analytics";
 import Achievements from "./pages/Achievements";
+import Friends from "./pages/Friends";
+import Leaderboard from "./pages/Leaderboard";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 
@@ -46,6 +48,8 @@ const App = () => (
             <Route path="/timer" element={<ProtectedRoute><FocusTimer /></ProtectedRoute>} />
             <Route path="/analytics" element={<ProtectedRoute><Analytics /></ProtectedRoute>} />
             <Route path="/achievements" element={<ProtectedRoute><Achievements /></ProtectedRoute>} />
+            <Route path="/friends" element={<ProtectedRoute><Friends /></ProtectedRoute>} />
+            <Route path="/leaderboard" element={<ProtectedRoute><Leaderboard /></ProtectedRoute>} />
             <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
