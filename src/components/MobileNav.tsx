@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import { LayoutDashboard, ListChecks, Timer, BarChart3, UserCircle } from "lucide-react";
+import { LayoutDashboard, ListChecks, Timer, Users, UserCircle } from "lucide-react";
 
 const items = [
   { to: "/dashboard", icon: LayoutDashboard, label: "Home" },
   { to: "/habits", icon: ListChecks, label: "Habits" },
   { to: "/timer", icon: Timer, label: "Focus" },
-  { to: "/analytics", icon: BarChart3, label: "Stats" },
+  { to: "/friends", icon: Users, label: "Friends" },
   { to: "/profile", icon: UserCircle, label: "Profile" },
 ];
 
