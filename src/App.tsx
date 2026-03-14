@@ -11,6 +11,8 @@ import Habits from "./pages/Habits";
 import FocusTimer from "./pages/FocusTimer";
 import Analytics from "./pages/Analytics";
 import Achievements from "./pages/Achievements";
+import Friends from "./pages/Friends";
+import Leaderboard from "./pages/Leaderboard";
 import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 
